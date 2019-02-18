@@ -1,7 +1,5 @@
 #!/bin/bash
 
-whoami
-
 service dbus start
 
 service avahi-daemon start
