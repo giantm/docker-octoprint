@@ -21,7 +21,7 @@ RUN /usr/sbin/update-rc.d avahi-daemon enable
 #
 
 # install required libs
-RUN apt -y install libjpeg8-dev
+RUN apt -y install libjpeg8-dev ffmpeg
 
 #get source
 RUN git clone https://github.com/jacksonliam/mjpg-streamer.git 
